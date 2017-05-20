@@ -1,0 +1,39 @@
+BUG LIST
+
+need to make sure to only enable count buttons after a successful int parse, not after any value is entered
+
+need to read into a map
+	first read into a buffer?
+	go line by line
+	for each line, read into a queue
+	output chars from queue one at a time and put into a char array until a space is reached
+	at space evaluate the array of chars
+		if either first or last or both indexes are not letters, remove them
+		else make the char array a string and match it to a map key, if there is one, if not make it one now
+			if it is matched to a map key, increment that counter
+	discard the space char
+	discard the previous char array contents
+	read next char string into the char array and evaluate next word
+
+begin time stamp
+read top words into a list and return list
+stop time stamp
+
+display return list
+return time stamp info
+	
+	
+	// here is where to enqueue it then push through until there is
+            // either a letter which is added to the
+            // new, refined array, else if it is a space, the array is
+            // banked/converted to a string and added to the map
+            // else if it is a non letter and or extra space or whatever else,
+            // it is dropped
+            // !!!! o ri just use arrays and gget it done, this is just text
+            // parsing part of it
+            // then after that i need a plan for the alg to derive the top n
+            // values from the banked string
+            // counts that are in the hashmap or treemp
+            
+            go back to WordParser
+            
